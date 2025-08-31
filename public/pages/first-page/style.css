@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.coffeeroasters__navbar {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 870px; */
+  /* align-items: center; */
+  margin: 20px 0;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 30px;
+}
+
+.container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.coffeeroasters__hero {
+  display: flex;
+  align-items: center;
+  background-image: url(../../assests/images/vecteezy_ai-generated-flat-lay-coffee-cup-with-tulip-flower-background_36395525.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  border-radius: 15px;
+}
+
+.hero__content {
+  position: relative;
+  left: 60px;
+  color: white;
+  width: 30%;
+}
+
+.hero__content p {
+  margin: 30px 0;
+}
+
+.hero__content h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.coffeeroasters__button {
+  font: inherit;
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+  width: 15vw;
+  border: 1px darkcyan;
+  border-radius: 5px;
+}
+
+.coffeeroasters__collection {
+  text-align: center;
+  width: 70vw;
+}
+
+.coffeeroasters__collection h1 {
+  font-size: 140px;
+  font-weight: 800;
+    color: rgba(128, 128, 128, 0.296);
+}
+
+.collection__items {
+  display: flex;
+  gap: 70px;
+}
+
+.features__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  /* width: 77vw; */
+  background-color: rgb(34, 34, 49);
+  color: white;
+  border-radius: 15px;
+  height: 70vh;
+}
+
+.features__box {
+  position: absolute;
+}
+
+.features__boxes {
+  display: flex;
+
+  position: relative;
+  gap: 50px;
+  height: 40vh;
+}
+
+.features__box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: darkcyan;
+  border-radius: 5px;
+}
+
+h4 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.features__content {
+  width: 60vw;
+  text-align: center;
+}
+
+.features__content h2 {
+  font-size: 35px;
+}
+
+.coffeeroasters__steps {
+  display: flex;
+  gap: 60px;
+}
+
+.steps__card {
+  width: 60vw;
+}
+
+span {
+  font-size: 70px;
+  font-weight: 700;
+  color: coral;
+}
+
+.coffeeroasters__step h3 {
+  font-size: 25px;
+  width: 10vw;
+}
+
+.coffeeroasters__step {
+  margin-bottom: 50px;
+}
+
+.coffeeroasters__footer {
+  display: flex;
+  gap: 270px;
+  background-color: rgb(34, 34, 49);
+  justify-content: center;
+  align-items: center;
+  width: 77vw;
+  height: 15vh;
+  color: white;
+  
+}
+
+.footer__list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__icon {
+    width: 30px;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 15px;
+}
+
+footer .container {
+    height: 30vh;
+}

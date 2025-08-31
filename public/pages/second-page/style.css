@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.coffeeroasters__navbar {
+  display: flex;
+  gap: 870px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffeeroasters__hero {
+  display: flex;
+  align-items: center;
+  background-image: url(../../assests/images/vecteezy_coffee-with-heart-shape-on-brown-background_56036218.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  border-radius: 15px;
+}
+
+.hero__content {
+  position: relative;
+  left: 60px;
+  color: white;
+  width: 30%;
+}
+
+.hero__content p {
+  margin: 30px 0;
+}
+
+.hero__content h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.coffeeroasters__button {
+  font: inherit;
+  background-color: darkcyan;
+  color: white;
+  padding: 10px;
+  width: 15vw;
+  border: 1px darkcyan;
+  border-radius: 5px;
+}
+
+.coffeeroasters__steps {
+  display: flex;
+  gap: 60px;
+  margin: 20px;
+}
+
+.steps__card {
+  width: 77vw;
+  background-color: rgb(34, 34, 49);
+  border-radius: 15px;
+  color: white;
+}
+
+span {
+  font-size: 70px;
+  font-weight: 700;
+  color: coral;
+}
+
+.coffeeroasters__step h3 {
+  font-size: 25px;
+  width: 10vw;
+}
+
+.coffeeroasters__step {
+  margin-bottom: 50px;
+}
+
+.coffeeroasters__footer {
+  display: flex;
+  gap: 270px;
+  background-color: rgb(34, 34, 49);
+  justify-content: center;
+  align-items: center;
+  width: 77vw;
+  height: 15vh;
+  color: white;
+}
+
+.footer__list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__icon {
+  width: 30px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 15px;
+}
+
+footer .container {
+  height: 30vh;
+}
+
+.coffeeroasters__sidebar {
+  position: relative;
+  left: 170px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(128, 128, 128, 0.628);
+}
+
+hr {
+  width: 10vw;
+  margin: 10px 0;
+}
+
+.option button {
+  width: 10vw;
+  height: 20vh;
+  border-radius: 5px;
+  border: none;
+}
+
+summary {
+  color: rgba(128, 128, 128, 0.628);
+  font-size: 30px;
+  font-weight: 700;
+  list-style: none;
+}
+
+.option button:active {
+  background-color: darkcyan;
+  color: white;
+}
+
+summary::after {
+  content: "🔺";
+}
+
+.order__summary {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  height: 20vh;
+  background-color: rgb(34, 34, 49);
+  color: white;
+  margin: 30px;
+}
+
+.summary .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-right: 170px;
+}
