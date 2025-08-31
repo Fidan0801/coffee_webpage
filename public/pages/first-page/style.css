@@ -100,13 +100,17 @@ section {
   gap: 70px;
 }
 
+
+.features {
+  position: relative;
+}
+
 .features__card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  position: relative;
   /* width: 77vw; */
   background-color: rgb(34, 34, 49);
   color: white;
@@ -114,14 +118,20 @@ section {
   height: 70vh;
 }
 
-.features__box {
+
+/* 
+
+.features__box:first-child {
   position: absolute;
-}
+  width: 20rem;
+  top: 14rem;
+  
+} */
 
 .features__boxes {
   display: flex;
 
-  position: relative;
+  position: absolute;
   gap: 50px;
   height: 40vh;
 }
